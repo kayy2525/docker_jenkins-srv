@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+   jenkins-srv:
+           image: kayy256/jenkins-srv:0.0.1
+           container_name: jenkins-srv
+#           restart: always
+           ports:
+             - "8080:8080"
+             - "50000:50000"
+           volumes:
+             - ./jenkins_workdir:/var/jenkins_home
+             

@@ -1,0 +1,28 @@
+Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp114-trigger.01(prod)
+The recommended git tool is: NONE
+using credential ssh-key-webapp114_prod
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-prod.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-prod.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp114_prod
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-prod.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6e5b8478da044942aa5b2041949bd57a6cbd0397 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6e5b8478da044942aa5b2041949bd57a6cbd0397 # timeout=10
+Commit message: "PROD !!!"
+ > git rev-list --no-walk 27ba0ce2e4571e059de97ae36eadfcf0a95bd86a # timeout=10
+[webapp114-trigger.01(prod)] $ /bin/sh -xe /tmp/jenkins2272864305026261598.sh
++ echo START
+START
+SSH: Connecting from host [55723e2bad15]
+SSH: Connecting with configuration [webapp114-test/prod] ...
+SSH: EXEC: completed after 201 ms
+SSH: Disconnecting configuration [webapp114-test/prod] ...
+SSH: Transferred 111 file(s)
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-12-02 10:54:11.23 UTC</timestamp>
+  <md5sum>89aede45ef49588e60e9c11b32317720</md5sum>
+  <fileName>Credential id=ssh-key-webapp115_test name=jenkins (ssh-key-webapp115_test)</fileName>
+  <usages>
+    <entry>
+      <string>webapp115-trigger.02(test)</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

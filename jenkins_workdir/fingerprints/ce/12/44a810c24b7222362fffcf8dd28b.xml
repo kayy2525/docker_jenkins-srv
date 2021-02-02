@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-01-21 14:19:37.842 UTC</timestamp>
+  <md5sum>ce1244a810c24b7222362fffcf8dd28b</md5sum>
+  <fileName>Credential id=ssh-key-webapp114_prod name=jenkins (ssh-key-webapp114_prod)</fileName>
+  <usages>
+    <entry>
+      <string>webapp114-trigger.01(prod)</string>
+      <ranges>7-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

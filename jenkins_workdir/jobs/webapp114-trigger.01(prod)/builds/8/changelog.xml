@@ -1,0 +1,9 @@
+commit 27ba0ce2e4571e059de97ae36eadfcf0a95bd86a
+tree 859793ad92d52526a497a1f9c3dbf7d1bc5dde1a
+parent fb9c7a910ca22401a7ac90a6fc2451c71f769d49
+author Vyacheslav Platon <67193011+kayy2525@users.noreply.github.com> 2021-01-21 17:00:43 +0200
+committer GitHub <noreply@github.com> 2021-01-21 17:00:43 +0200
+
+    delete prod
+
+:100755 100755 44cbf4978bea31c0da09da140a4546b12e3a903d b2f0cd34c0b4153bc8098bd401f9f9bcdebffb52 M	index.html

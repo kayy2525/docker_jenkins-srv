@@ -1,0 +1,143 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor plugin="publish-over-ssh@1.22">
+  <hostConfigurations>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>respo-web100_PROD</name>
+      <hostname>192.168.0.100</hostname>
+      <username>resposid</username>
+      <secretPassword>{AQAAABAAAAAQ3ZgllDiW7qXgCDbD2ulwnxbYHDYkOmdKw9mfNqCOScc=}</secretPassword>
+      <remoteRootDir>/srv/projects/dockers/respo-web_prod/respo-web</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration">
+        <secretPassphrase>{AQAAABAAAAAQeuKH7n349+jA8p2vxYjAFX1CrmKpVqZ1hnWObQMayus=}</secretPassphrase>
+        <key>-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+</key>
+        <keyPath></keyPath>
+        <disableAllExec>false</disableAllExec>
+      </commonConfig>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQEG4UUGCzDKcu6CFijk1Jfk/PdoYMrXsPXmTVgVFxBhc=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>webapp114-test/prod</name>
+      <hostname>192.168.0.114</hostname>
+      <username>jenkins</username>
+      <secretPassword>{AQAAABAAAAAQCvdi14abnvZqleUAU6SyLs/op5RR0ygmt0kMLE4nwN8=}</secretPassword>
+      <remoteRootDir>/srv/projects/dockers/webapp/app</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQGNZN9Yikkn1MSdUL+j/3lznPJ0GFDjstIH/7F+/zm44=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>webapp115-test</name>
+      <hostname>192.168.0.115</hostname>
+      <username>jenkins</username>
+      <secretPassword>{AQAAABAAAAAQsea5Qa9kZrenMul+lUBLSgatZjdwqt8q+Gn8TRymtRo=}</secretPassword>
+      <remoteRootDir>/srv/projects/dockers/webapp/app</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQnttYK/eEj9QjPQfq8k1SVBhsVERfubDmSqiu90QEoIA=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>webapp116-test</name>
+      <hostname>192.168.0.116</hostname>
+      <username>jenkins</username>
+      <secretPassword>{AQAAABAAAAAQ4+bWDrOBE/MEwJXNu7IpihWixWfs1muIEFsrcq3FXjA=}</secretPassword>
+      <remoteRootDir>/srv/projects/dockers/webapp/app</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQ2cvl6fPQpCtTR1QMderudylrGrU0Jh8GF6ajyvvLuq0=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+  </hostConfigurations>
+  <commonConfig reference="../hostConfigurations/jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+  <defaults class="jenkins.plugins.publish_over_ssh.options.SshPluginDefaults"/>
+</jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor>

@@ -1,0 +1,28 @@
+Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp116-trigger.03(test)
+The recommended git tool is: NONE
+using credential ssh-key-webapp116_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp116_test
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 352aa466a10b9d966f2002236c1356fe7431b492 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 352aa466a10b9d966f2002236c1356fe7431b492 # timeout=10
+Commit message: "TEST&TEST"
+ > git rev-list --no-walk 71e5e6bc8ac56927f7f60398cb743f8fe0bca1b7 # timeout=10
+[webapp116-trigger.03(test)] $ /bin/sh -xe /tmp/jenkins7839876554687172361.sh
++ echo START
+START
+SSH: Connecting from host [55723e2bad15]
+SSH: Connecting with configuration [webapp116-test] ...
+SSH: EXEC: completed after 201 ms
+SSH: Disconnecting configuration [webapp116-test] ...
+SSH: Transferred 111 file(s)
+Finished: SUCCESS

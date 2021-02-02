@@ -1,0 +1,27 @@
+Started by user [8mha:////4OCD5efY6kkRVp0wekEKbp6LjoZ4J1aeG7oMeTx+ip5QAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZe/dLi1CL9rNS87My8YgA3w92AwgAAAA==[0m Platon Vyacheslav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp114-trigger.01(prod)
+The recommended git tool is: NONE
+using credential ssh-key-webapp14_prod
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-prod.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-prod.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp14_prod
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-prod.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 31305609f718aa0eeec1a68b3d48f3affc1e2467 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 31305609f718aa0eeec1a68b3d48f3affc1e2467 # timeout=10
+Commit message: "Hi-Tech Design from 114 PROD!!!"
+ > git rev-list --no-walk 31305609f718aa0eeec1a68b3d48f3affc1e2467 # timeout=10
+[webapp114-trigger.01(prod)] $ /bin/sh -xe /tmp/jenkins7926661272063624996.sh
++ echo START
+START
+SSH: Connecting from host [7615b8736d30]
+SSH: Connecting with configuration [webapp114-test/prod] ...
+SSH: Disconnecting configuration [webapp114-test/prod] ...
+SSH: Transferred 0 file(s)
+Finished: SUCCESS
