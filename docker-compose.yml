@@ -2,9 +2,10 @@ version: "3.8"
 
 services:
    jenkins-srv:
-           image: kayy256/jenkins-srv:0.0.1
+           build: .           
+#           image: kayy256/jenkins-srv:latest
            container_name: jenkins-srv
-#           restart: always
+           restart: always
            ports:
              - "8080:8080"
              - "50000:50000"
