@@ -2,13 +2,19 @@ version: "3.8"
 
 services:
    jenkins-srv:
-           build: .           
-#           image: kayy256/jenkins-srv:latest
-           container_name: jenkins-srv
-           restart: always
-           ports:
-             - "8080:8080"
-             - "50000:50000"
-           volumes:
-             - ./jenkins_workdir:/var/jenkins_home
-             
+    build: .           
+#   image: kayy256/jenkins-srv:latest
+    container_name: jenkins-srv
+    restart: always
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - ./jenkins_workdir:/var/jenkins_home
+      - ./jenkins_update/jenkins:/usr/share/jenkins
+    networks:
+      - jenkins-srv_network 
+            
+networks:
+    jenkins-srv_network:
+             driver: bridge

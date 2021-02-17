@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>popper-api</artifactId>
-  <version>1.16.0-7</version>
+  <version>1.16.1-1</version>
   <packaging>hpi</packaging>
   <name>Popper.js API Plugin</name>
   <description>Provides Popper.js for Jenkins plugins.</description>
@@ -26,7 +26,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/popper-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/popper-api-plugin.git</developerConnection>
-    <tag>v1.16.0-7</tag>
+    <tag>v1.16.1-1</tag>
     <url>https://github.com/jenkinsci/popper-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -43,7 +43,7 @@
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>popper.js</artifactId>
-      <version>1.16.0</version>
+      <version>1.16.1-lts</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -115,7 +115,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.16</version>
+        <version>3.17</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

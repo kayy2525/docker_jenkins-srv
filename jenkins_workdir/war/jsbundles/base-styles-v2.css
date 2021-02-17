@@ -1195,6 +1195,7 @@ table.parameters > tbody:hover {
   margin-top: 5px;
   white-space: normal;
   opacity: 0.6;
+  word-break: break-word;
 }
 #buildHistory .build-row-cell {
   position: relative;
@@ -1629,6 +1630,21 @@ textarea.rich-editor {
 .hetero-list-container.with-drag-drop .repeated-chunk .dd-handle,
 .repeated-container.with-drag-drop .repeated-chunk .dd-handle {
   margin-left: -1.25rem;
+}
+.repeated-chunk--sortable-ghost {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+.repeated-chunk--sortable-chosen {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #0b6aa2;
+  border: 2px solid var(--primary);
+}
+.repeated-chunk--sortable-chosen > * {
+  display: none;
 }
 /* ========================= plugin update center ========================= */
 #plugins .excerpt {
@@ -2972,9 +2988,6 @@ sans-serif
   font-weight: normal;
 }
 #search-box.main-search__input:-ms-input-placeholder {
-  font-weight: normal;
-}
-#search-box.main-search__input::-ms-input-placeholder {
   font-weight: normal;
 }
 #search-box.main-search__input::placeholder {

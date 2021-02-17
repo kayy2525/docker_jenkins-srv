@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>font-awesome-api</artifactId>
-  <version>5.15.1-1</version>
+  <version>5.15.2-1</version>
   <packaging>hpi</packaging>
   <name>Font Awesome API Plugin</name>
   <description>Provides the free fonts of Font Awesome for Jenkins plugins.</description>
@@ -26,7 +26,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/font-awesome-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/font-awesome-api-plugin.git</developerConnection>
-    <tag>v5.15.1-1</tag>
+    <tag>v5.15.2-1</tag>
     <url>https://github.com/jenkinsci/font-awesome-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -43,13 +43,13 @@
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>font-awesome</artifactId>
-      <version>5.15.1</version>
+      <version>5.15.2</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>plugin-util-api</artifactId>
-      <version>1.4.0</version>
+      <version>1.6.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -127,7 +127,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.16</version>
+        <version>3.17</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

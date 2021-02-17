@@ -243,8 +243,8 @@
   border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-bottom: none;
-  background: #eee;
-  background: var(--light-bg-color);
+  background: #eaeff2;
+  background: var(--light-grey);
   min-height: 2.5em;
   -moz-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
@@ -278,8 +278,8 @@
   right: 5px;
   top: 5px;
   cursor: pointer;
-  color: #ccc;
-  color: var(--input-border);
+  color: #9ba7af;
+  color: var(--medium-grey);
   text-shadow: #fff;
   text-shadow: var(--brightest-bg-color 0 1px 2px);
   font-size: 0.875rem;
@@ -289,8 +289,8 @@
 }
 .jenkins-config-widgets .form-config.tabBarFrame {
   position: relative;
-  border-bottom: solid 1px #ccc;
-  border-bottom: solid 1px var(--input-border);
+  border-bottom: solid 1px #9ba7af;
+  border-bottom: solid 1px var(--medium-grey);
 }
 .jenkins-config-widgets .form-config.tabBarFrame .config-section-activators {
   margin: 0;
@@ -300,7 +300,8 @@
 }
 .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab {
   border: solid 1px transparent;
-  color: #999;
+  color: #4d545d;
+  color: var(--text-color-secondary);
   padding: 7px 10px;
   -moz-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -311,19 +312,24 @@
   text-decoration: none;
 }
 .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab:hover {
-  background: #bbb;
-  color: #fff;
-  color: var(--brightest-bg-color);
+  background: #f8f8f8;
+  background: var(--very-light-grey);
+  color: #4d545d;
+  color: var(--text-color-secondary);
+  border: 1px solid #9ba7af;
+  border: 1px solid var(--medium-grey);
+  border-bottom: 1px solid #f9f9f9;
+  border-bottom: 1px solid var(--bright-bg-color);
 }
 .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab.active {
-  background: #f9f9f9;
-  background: var(--bright-bg-color);
+  background: #fff;
+  background: var(--background);
   color: #333;
   color: var(--text-color);
   font-weight: bold;
   z-index: 2;
-  border: 1px solid #ccc;
-  border: 1px solid var(--input-border);
+  border: 1px solid #9ba7af;
+  border: 1px solid var(--medium-grey);
   border-bottom: 1px solid #f9f9f9;
   border-bottom: 1px solid var(--bright-bg-color);
 }
@@ -434,8 +440,8 @@
 #jenkins .jenkins-config .config-table p,
 #jenkins .jenkins-config .config-table .help,
 #jenkins .jenkins-config .config-table .setting-description {
-  font-size: 1rem;
-  font-size: var(--font-size-base);
+  font-size: 0.875rem;
+  font-size: var(--font-size-sm);
 }
 #jenkins .jenkins-config .config-table tr.help-area,
 #jenkins .jenkins-config .config-table .tr.help-area {
@@ -458,14 +464,17 @@
   position: relative;
   z-index: 2;
 }
-#jenkins .jenkins-config .config-table .repeated-chunk.dragging {
-  position: static;
-}
 #jenkins .jenkins-config .config-table .repeated-chunk {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border: 1px solid var(--shade);
   margin: 2px;
   position: relative;
+}
+#jenkins .jenkins-config .config-table .repeated-chunk.repeated-chunk--sortable-ghost,
+#jenkins .jenkins-config .config-table .repeated-chunk.repeated-chunk--sortable-chosen {
+  border-width: 2px;
+  border-color: #69c;
+  border-color: var(--line-blue);
 }
 #jenkins .jenkins-config .config-table .repeatable-delete {
   position: absolute;
@@ -530,13 +539,6 @@
   border: 1px solid #ccc !important;
   border: 1px solid var(--input-border) !important;
 }
-#ygddfdiv {
-  background: #eee;
-  background: var(--light-bg-color);
-  border: 1px solid #69c !important;
-  border: 1px solid var(--line-blue) !important;
-  opacity: 0.5;
-}
 .yui-skin-sam .yuimenu {
   z-index: 9999 !important;
 }
@@ -548,8 +550,8 @@
   border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-bottom: none;
-  background: #eee;
-  background: var(--light-bg-color);
+  background: #eaeff2;
+  background: var(--light-grey);
   -moz-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
   -moz-border-top-right-radius: 3px;
@@ -561,8 +563,8 @@
   border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-top: none;
-  background: #eee;
-  background: var(--light-bg-color);
+  background: #eaeff2;
+  background: var(--light-grey);
   height: 110px;
 }
 #add-item-panel form > .footer .btn-decorator {
@@ -596,8 +598,8 @@
   border: 1px solid var(--input-border);
   border-top: none;
   padding: 20px;
-  background-color: #eee;
-  background-color: var(--light-bg-color);
+  background-color: #eaeff2;
+  background-color: var(--light-grey);
 }
 #add-item-panel .item-copy p.description {
   font-size: 1rem;
@@ -746,8 +748,8 @@ sans-serif
 #add-item-panel .categories {
   border: 1px solid #ccc;
   border: 1px solid var(--input-border);
-  background-color: #f9f9f9;
-  background-color: var(--bright-bg-color);
+  background-color: #f8f8f8;
+  background-color: var(--very-light-grey);
 }
 #add-item-panel .categories .category {
   border-bottom: 1px solid #ccc;

@@ -98,3 +98,7 @@ ls
 nano init.groovy.d/
 ls
 exit
+ls
+cd usr/share/jenkins/
+ls
+exit
