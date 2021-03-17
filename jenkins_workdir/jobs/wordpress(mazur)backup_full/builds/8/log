@@ -1,0 +1,10 @@
+Started by user [8mha:////4OCD5efY6kkRVp0wekEKbp6LjoZ4J1aeG7oMeTx+ip5QAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZe/dLi1CL9rNS87My8YgA3w92AwgAAAA==[0m Platon Vyacheslav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/wordpress(mazur)backup_full
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [homenano-srv(root)] ...
+SSH: EXEC: completed after 804,411 ms
+SSH: Disconnecting configuration [homenano-srv(root)] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

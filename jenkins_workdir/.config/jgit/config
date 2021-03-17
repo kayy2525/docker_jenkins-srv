@@ -1,3 +1,6 @@
 [filesystem "Oracle Corporation|1.8.0_242|/dev/mapper/ubuntu--vg-ubuntu--lv"]
 	timestampResolution = 1001 microseconds
 	minRacyThreshold = 5459 microseconds
+[filesystem "Oracle Corporation|1.8.0_242|/dev/mmcblk0p2"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 6594 microseconds

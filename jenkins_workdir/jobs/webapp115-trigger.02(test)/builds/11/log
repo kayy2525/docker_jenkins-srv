@@ -1,0 +1,28 @@
+Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp115-trigger.02(test)
+The recommended git tool is: NONE
+using credential ssh-key-webapp115_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp115_test
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ddd34c4cf566f5d6197b460afe41e767b659d1cf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ddd34c4cf566f5d6197b460afe41e767b659d1cf # timeout=10
+Commit message: "Jenkins"
+ > git rev-list --no-walk 9defaf33fe36cdad4e5c9c7c87707836d4fdfad7 # timeout=10
+[webapp115-trigger.02(test)] $ /bin/sh -xe /tmp/jenkins1728483069187880445.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp115-test] ...
+SSH: Disconnecting configuration [webapp115-test] ...
+ERROR: Exception when publishing, exception message [Permission denied]
+Build step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

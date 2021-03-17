@@ -1,0 +1,10 @@
+commit 42ff537674de3316648ca6f60f23d9577d625479
+tree aa9b42bae7d358b5a8011d3fcfba83f7d0742cde
+parent cb0af7b8d1e59b4b9092c2ddf0e53b23fc6ef810
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-12 16:40:41 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-12 16:40:41 +0200
+
+    tset1
+
+
+:100755 100755 318917f309fa93859b70a068f5475b9312e21e3f 9668edd78af36a2cfe2f2d429eabcbb5c635e583 M	index.html

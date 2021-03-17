@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-02-28 14:42:54.404 UTC</timestamp>
+  <md5sum>6958fe26c4fdd745f96c9032955b8908</md5sum>
+  <fileName>Credential id=ssh-root_private_key name=root (ssh-root_private_key)</fileName>
+  <usages>
+    <entry>
+      <string>wordpress_project(push on srv from GIthub)</string>
+      <ranges>1-12</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

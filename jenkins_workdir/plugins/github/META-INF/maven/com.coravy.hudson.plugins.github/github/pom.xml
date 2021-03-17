@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.coravy.hudson.plugins.github</groupId>
   <artifactId>github</artifactId>
-  <version>1.33.0</version>
+  <version>1.33.1</version>
   <packaging>hpi</packaging>
   <name>GitHub plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -30,7 +30,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/github-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/github-plugin.git</developerConnection>
-    <tag>v1.33.0</tag>
+    <tag>v1.33.1</tag>
     <url>https://github.com/jenkinsci/github-plugin</url>
   </scm>
   <issueManagement>
@@ -52,12 +52,6 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.11</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-text</artifactId>
-      <version>1.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

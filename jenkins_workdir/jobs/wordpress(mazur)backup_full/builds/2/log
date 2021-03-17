@@ -1,0 +1,8 @@
+Started by user [8mha:////4OCD5efY6kkRVp0wekEKbp6LjoZ4J1aeG7oMeTx+ip5QAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZe/dLi1CL9rNS87My8YgA3w92AwgAAAA==[0m Platon Vyacheslav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/wordpress(mazur)backup_full
+[wordpress(mazur)backup_full] $ /bin/sh -xe /tmp/jenkins4231751143760970798.sh
++ sudo sh /srv/projects/dockers/wordpress-project/backup_full.sh
+/tmp/jenkins4231751143760970798.sh: 2: /tmp/jenkins4231751143760970798.sh: sudo: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

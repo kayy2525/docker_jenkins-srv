@@ -1,0 +1,32 @@
+Started by GitHub push by kayy2525
+Started by upstream project "[8mha:////4L1imrrL5T+zA8ngCvGPC1YLe9tOeST4OW0b+EDqWEEOAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQ3NdoDHp6alFegYmGiWpxSWa+gDXTSC41QAAAA==[0mwebapp117-trigger.04(test)" build number [8mha:////4I3bx+kKvo2/kJXcAnKDWkD92xTiPob3zCsXxP6VVRsYAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYl/az8JP3y1KTEggJDQ3NdoDHp6alFegYmGiWpxSWa+obGAKSC3rjXAAAA[0m13
+originally caused by:
+ Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp101-trigger.05(test)
+The recommended git tool is: NONE
+using credential jenkins-sshkey-webapp101-test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials jenkins-sshkey-webapp101-test
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1662c6abd97f49e0ec014c36728ac54875501541 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1662c6abd97f49e0ec014c36728ac54875501541 # timeout=10
+Commit message: "pipeline test"
+ > git rev-list --no-walk 0b552347b59fa7f13ca3bbfa0bd645468c1c182d # timeout=10
+[webapp101-trigger.05(test)] $ /bin/sh -xe /tmp/jenkins8087638313688955707.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp101-test] ...
+SSH: EXEC: completed after 203 ms
+SSH: Disconnecting configuration [webapp101-test] ...
+SSH: Transferred 110 file(s)
+Triggering a new build of [8mha:////4HiJg1d523Zd830+XBI96vZKzyh/4ny4qIzt+bQpRdMUAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQxNdoDHp6alFegaGGgVF+Sma+gDJhy4c1QAAAA==[0mwebapp114-trigger.01(prod)
+Finished: SUCCESS

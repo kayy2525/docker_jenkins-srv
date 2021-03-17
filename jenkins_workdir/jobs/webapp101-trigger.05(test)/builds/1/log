@@ -1,0 +1,31 @@
+Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp101-trigger.05(test)
+The recommended git tool is: NONE
+using credential jenkins-sshkey-webapp101-test
+Cloning the remote Git repository
+Cloning repository git@github.com:kayy2525/project-test.git
+ > git init /var/jenkins_home/workspace/webapp101-trigger.05(test) # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials jenkins-sshkey-webapp101-test
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0b552347b59fa7f13ca3bbfa0bd645468c1c182d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b552347b59fa7f13ca3bbfa0bd645468c1c182d # timeout=10
+Commit message: "+ 101"
+First time build. Skipping changelog.
+[webapp101-trigger.05(test)] $ /bin/sh -xe /tmp/jenkins3537512175122528154.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp101-test] ...
+SSH: EXEC: completed after 204 ms
+SSH: Disconnecting configuration [webapp101-test] ...
+SSH: Transferred 110 file(s)
+Finished: SUCCESS

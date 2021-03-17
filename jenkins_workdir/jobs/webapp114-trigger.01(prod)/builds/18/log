@@ -1,0 +1,35 @@
+Started by upstream project "[8mha:////4KqEYIqMhRKfJMU/7nCbxK60qiAxWJDU7MXO4f8tW+kZAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQ1NdoDHp6alFegZGGiWpxSWa+gChQvsK1QAAAA==[0mwebapp115-trigger.02(test)" build number [8mha:////4D+Bd5qyveMs0JHrKNVmefWKz4kDmV8YqorhroqyaOmpAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYl/az8JP3y1KTEggJDQ1NdoDHp6alFegZGGiWpxSWa+oZmABEHbiHXAAAA[0m16
+originally caused by:
+ Started by GitHub push by kayy2525
+Started by upstream project "[8mha:////4L1imrrL5T+zA8ngCvGPC1YLe9tOeST4OW0b+EDqWEEOAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQ3NdoDHp6alFegYmGiWpxSWa+gDXTSC41QAAAA==[0mwebapp117-trigger.04(test)" build number [8mha:////4MyvZ3XzNV4ZauZcaZiptWloRsFIWvV+keteJS3ZrOt+AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkX9rPwk/fLUpMSCAkNDc12gMenpqUV6BiYaJanFJZr6lgAqn3FV1gAAAA==[0m9
+originally caused by:
+ Started by upstream project "[8mha:////4EzXBoVGCzDsO9H+vzREBhcTKQwgUnwlEZUIwj0O4NvOAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQzNdoDHp6alFegbGGiWpxSWa+gCWxAdl1QAAAA==[0mwebapp116-trigger.03(test)" build number [8mha:////4K+LEu3JGV3JfiNLi9579VBCVa6TdV7TmSE5KSpLYojLAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYl/az8JP3y1KTEggJDQzNdoDHp6alFegbGGiWpxSWa+kaGAKwo+wDXAAAA[0m21
+ originally caused by:
+  Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp114-trigger.01(prod)
+The recommended git tool is: NONE
+using credential ssh-key-webapp114_prod
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp114_prod
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f0e2a8227346d70a84670774063bc3f8967305af (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f0e2a8227346d70a84670774063bc3f8967305af # timeout=10
+Commit message: "after"
+ > git rev-list --no-walk f0e2a8227346d70a84670774063bc3f8967305af # timeout=10
+[webapp114-trigger.01(prod)] $ /bin/sh -xe /tmp/jenkins500052352877960252.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp114-prod] ...
+SSH: EXEC: completed after 203 ms
+SSH: Disconnecting configuration [webapp114-prod] ...
+SSH: Transferred 110 file(s)
+Finished: SUCCESS

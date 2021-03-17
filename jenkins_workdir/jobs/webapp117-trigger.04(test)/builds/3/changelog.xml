@@ -1,0 +1,10 @@
+commit ddd34c4cf566f5d6197b460afe41e767b659d1cf
+tree 6fcad96ae7c796d242f1ac08be4d8996b9790140
+parent 9defaf33fe36cdad4e5c9c7c87707836d4fdfad7
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-12 14:36:05 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-12 14:36:05 +0200
+
+    Jenkins
+
+
+:100755 100755 9668edd78af36a2cfe2f2d429eabcbb5c635e583 318917f309fa93859b70a068f5475b9312e21e3f M	index.html

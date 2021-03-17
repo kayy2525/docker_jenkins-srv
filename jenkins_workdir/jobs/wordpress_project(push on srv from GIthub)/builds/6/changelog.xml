@@ -1,0 +1,11 @@
+commit 3d8da43112f843230e6c1cc792f5b764e1fc686e
+tree 5d11dcf04e455cb0954ca25328ff91d86b75cd21
+parent c84a96ab535d1e61c116e163092cf13dbab208a4
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-02-28 17:58:33 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-02-28 17:58:33 +0200
+
+    change login
+
+
+:100644 100644 ee75e10b386bfc9dec5e38f4dbf7b0098c34cddf 0adeb583d639801086561956ad2c6ab3ff27ba4e M	wordpress/html/wp-content/themes/homeo/css/login-style.css
+:100644 100644 cc70794ea2f132bed35687bb67f63071ff2244b6 8429dd42088db633b95b41a594d79aeb91aed584 M	wordpress/html/wp-content/themes/homeo/template-properties/misc/login.php

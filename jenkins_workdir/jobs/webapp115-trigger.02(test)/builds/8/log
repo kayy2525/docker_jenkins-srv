@@ -1,0 +1,28 @@
+Started by user [8mha:////4OCD5efY6kkRVp0wekEKbp6LjoZ4J1aeG7oMeTx+ip5QAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZe/dLi1CL9rNS87My8YgA3w92AwgAAAA==[0m Platon Vyacheslav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp115-trigger.02(test)
+The recommended git tool is: NONE
+using credential ssh-key-webapp115_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp115_test
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 352aa466a10b9d966f2002236c1356fe7431b492 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 352aa466a10b9d966f2002236c1356fe7431b492 # timeout=10
+Commit message: "TEST&TEST"
+ > git rev-list --no-walk 352aa466a10b9d966f2002236c1356fe7431b492 # timeout=10
+[webapp115-trigger.02(test)] $ /bin/sh -xe /tmp/jenkins209186985702237675.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp115-test] ...
+SSH: Disconnecting configuration [webapp115-test] ...
+ERROR: Exception when publishing, exception message [Permission denied]
+Build step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

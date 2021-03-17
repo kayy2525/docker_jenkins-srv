@@ -1,0 +1,75 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jenkins</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.18">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>99</queueId>
+  <timestamp>1615798917994</timestamp>
+  <startTime>1615798918027</startTime>
+  <result>FAILURE</result>
+  <duration>633</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node{
+    stage &apos;Deploy&apos;
+       build &apos;Deploy_CHECK&apos;
+    stage &apos;Sonar_analysis&apos;
+       build job: &apos;Sonar_analysis&apos;, parameters: [string(name: &apos;STAND&apos;, value: &apos;CHECK&apos;)]
+    stage &apos;Unit tests&apos;
+        build job: &apos;Unit_tests&apos;, parameters: [string(name: &apos;STAND&apos;, value: &apos;CHECK&apos;)]
+    stage &apos;Deploy DEV&apos;
+        build &apos;Deploy_DEV&apos;
+    stage &apos;Unit tests&apos;
+        build job: &apos;Unit_tests&apos;, parameters: [string(name: &apos;STAND&apos;, value: &apos;DEV&apos;)]
+    stage &apos;Acceptance_test&apos;
+        build &apos;Acceptance_test&apos;
+    stage &apos;Smoke_tests&apos;
+        build job: &apos;Smoke_tests&apos;, parameters: [string(name: &apos;&apos;, value: &apos;DEV&apos;)]
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>216679778</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>46912193</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>418463184</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>122813099</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>60253231</long>
+      </entry>
+    </timings>
+    <sandbox>false</sandbox>
+    <iota>9</iota>
+    <head>1:9</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

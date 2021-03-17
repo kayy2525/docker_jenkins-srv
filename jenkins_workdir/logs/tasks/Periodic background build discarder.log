@@ -1,30 +1,20 @@
-Started at Wed Feb 17 07:33:22 UTC 2021
-Processing respo-web_trigger01(prod)
-Offering respo-web_trigger01(prod) to Project Build Discarder
+Started at Wed Mar 17 08:43:08 UTC 2021
+Processing reset_wordpress (homenano-srv)
+Offering reset_wordpress (homenano-srv) to Project Build Discarder
+Processing webapp101-trigger.05(test)
+Offering webapp101-trigger.05(test) to Project Build Discarder
 Processing webapp114-trigger.01(prod)
 Offering webapp114-trigger.01(prod) to Project Build Discarder
 Processing webapp115-trigger.02(test)
 Offering webapp115-trigger.02(test) to Project Build Discarder
+Processing webapp115-trigger.06(pipeline_test)
+Offering webapp115-trigger.06(pipeline_test) to Project Build Discarder
 Processing webapp116-trigger.03(test)
 Offering webapp116-trigger.03(test) to Project Build Discarder
-Finished at Wed Feb 17 07:33:22 UTC 2021. 17ms
-Started at Wed Feb 17 08:33:22 UTC 2021
-Processing respo-web_trigger01(prod)
-Offering respo-web_trigger01(prod) to Project Build Discarder
-Processing webapp114-trigger.01(prod)
-Offering webapp114-trigger.01(prod) to Project Build Discarder
-Processing webapp115-trigger.02(test)
-Offering webapp115-trigger.02(test) to Project Build Discarder
-Processing webapp116-trigger.03(test)
-Offering webapp116-trigger.03(test) to Project Build Discarder
-Finished at Wed Feb 17 08:33:22 UTC 2021. 10ms
-Started at Wed Feb 17 09:33:22 UTC 2021
-Processing respo-web_trigger01(prod)
-Offering respo-web_trigger01(prod) to Project Build Discarder
-Processing webapp114-trigger.01(prod)
-Offering webapp114-trigger.01(prod) to Project Build Discarder
-Processing webapp115-trigger.02(test)
-Offering webapp115-trigger.02(test) to Project Build Discarder
-Processing webapp116-trigger.03(test)
-Offering webapp116-trigger.03(test) to Project Build Discarder
-Finished at Wed Feb 17 09:33:22 UTC 2021. 8ms
+Processing webapp117-trigger.04(test)
+Offering webapp117-trigger.04(test) to Project Build Discarder
+Processing wordpress(mazur)backup_full
+Offering wordpress(mazur)backup_full to Project Build Discarder
+Processing wordpress_project(push on srv from GIthub)
+Offering wordpress_project(push on srv from GIthub) to Project Build Discarder
+Finished at Wed Mar 17 08:43:08 UTC 2021. 19ms

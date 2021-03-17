@@ -1,0 +1,31 @@
+Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp115-trigger.02(test)
+The recommended git tool is: NONE
+using credential ssh-key-webapp115_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp115_test
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1662c6abd97f49e0ec014c36728ac54875501541 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1662c6abd97f49e0ec014c36728ac54875501541 # timeout=10
+Commit message: "pipeline test"
+ > git rev-list --no-walk 0b552347b59fa7f13ca3bbfa0bd645468c1c182d # timeout=10
+[webapp115-trigger.02(test)] $ /bin/sh -xe /tmp/jenkins1353341352939241412.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp115-test] ...
+SSH: EXEC: completed after 203 ms
+SSH: Disconnecting configuration [webapp115-test] ...
+SSH: Transferred 110 file(s)
+Triggering a new build of [8mha:////4IDviRcS/6VfoRNADx4NtRhVlDmsyLQjkiuG07U6LMpUAAAAtB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzlEgZN/az8JP3y1KTEggJDQ1NdoDHp6alFegZmGgWZBalAZ6TGl6QWl2jqAwAzTfX03gAAAA==[0mwebapp115-trigger.06(pipeline_test) #3
+Triggering a new build of [8mha:////4HiJg1d523Zd830+XBI96vZKzyh/4ny4qIzt+bQpRdMUAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQxNdoDHp6alFegaGGgVF+Sma+gDJhy4c1QAAAA==[0mwebapp114-trigger.01(prod)
+Triggering a new build of [8mha:////4EzXBoVGCzDsO9H+vzREBhcTKQwgUnwlEZUIwj0O4NvOAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQzNdoDHp6alFegbGGiWpxSWa+gCWxAdl1QAAAA==[0mwebapp116-trigger.03(test)
+Finished: SUCCESS

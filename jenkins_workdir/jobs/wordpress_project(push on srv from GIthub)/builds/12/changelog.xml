@@ -1,0 +1,10 @@
+commit 20e3063f4d66cf09626ec7022216e99005578c28
+tree b6af73bb11a2ec261a36de4cf4c2fbc62c706639
+parent 04d3ab8bc5b23fe0c12a79a9cb8f74bb733cee2e
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-02 16:27:15 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-02 16:27:15 +0200
+
+    add commentary to script backup.sh
+
+
+:100755 100755 bc9a8a4ca470162ea44371bce35d6e820b90cdbf 5ef68884c863975acef6176f19adde70cfb9ceff M	backup_full.sh

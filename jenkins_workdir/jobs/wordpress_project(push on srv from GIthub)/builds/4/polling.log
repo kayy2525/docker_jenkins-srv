@@ -1,0 +1,14 @@
+Started on Feb 28, 2021 3:04:23 PM
+Started by event from 140.82.115.151 ⇒ http://178.18.38.230:8080/github-webhook/ on Sun Feb 28 15:04:23 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision d960e060540f63b1a6711ea013f376aee611f4da (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential ssh-root_private_key
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-root_private_key
+ > git ls-remote -h -- git@github.com:kayy2525/wordpress-project_on-ssl.git # timeout=10
+Found 1 remote heads on git@github.com:kayy2525/wordpress-project_on-ssl.git
+[poll] Latest remote head revision on refs/heads/master is: b949471e2a1244080943685619f653dbe8458129
+Done. Took 1.4 sec
+Changes found

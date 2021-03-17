@@ -1,0 +1,31 @@
+Started by GitHub push by kayy2525
+Started by upstream project "[8mha:////4L1imrrL5T+zA8ngCvGPC1YLe9tOeST4OW0b+EDqWEEOAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP3y1KTEggJDQ3NdoDHp6alFegYmGiWpxSWa+gDXTSC41QAAAA==[0mwebapp117-trigger.04(test)" build number [8mha:////4JmWjeudzHZIWfvF9T5Wo/EBPzCiUDwY3g0CrBiONv/pAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYl/az8JP3y1KTEggJDQ3NdoDHp6alFegYmGiWpxSWa+oaGAIjj0FbXAAAA[0m11
+originally caused by:
+ Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webapp114-trigger.01(prod)
+The recommended git tool is: NONE
+using credential ssh-key-webapp114_prod
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/project-test.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-key-webapp114_prod
+ > git fetch --tags --progress -- git@github.com:kayy2525/project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0b552347b59fa7f13ca3bbfa0bd645468c1c182d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b552347b59fa7f13ca3bbfa0bd645468c1c182d # timeout=10
+Commit message: "+ 101"
+ > git rev-list --no-walk f0e2a8227346d70a84670774063bc3f8967305af # timeout=10
+[webapp114-trigger.01(prod)] $ /bin/sh -xe /tmp/jenkins192226465708277503.sh
++ echo START
+START
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [webapp114-prod] ...
+SSH: EXEC: completed after 203 ms
+SSH: Disconnecting configuration [webapp114-prod] ...
+SSH: Transferred 110 file(s)
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+commit 1662c6abd97f49e0ec014c36728ac54875501541
+tree 6fcad96ae7c796d242f1ac08be4d8996b9790140
+parent 0b552347b59fa7f13ca3bbfa0bd645468c1c182d
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-15 11:07:34 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-15 11:07:34 +0200
+
+    pipeline test
+
+
+:100755 100755 7cee371b865e642122557a83575d5fa614b29ef6 318917f309fa93859b70a068f5475b9312e21e3f M	index.html

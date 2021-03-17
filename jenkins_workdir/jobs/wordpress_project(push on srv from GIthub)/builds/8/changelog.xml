@@ -1,0 +1,10 @@
+commit 6398584ec890f3154607f80936764748a3c965ea
+tree 90691a50d189b93e76a112b4136cb54980fce3ca
+parent e527e8cb9fc6b16858529e8b17de65965a46abcb
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-02-28 18:15:34 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-02-28 18:15:34 +0200
+
+    important
+
+
+:100644 100644 76469eb6ca08121bddd225cd48e2ce76d01c97a5 6712fae5b903d438d127a71a2a8b0fb2a268c20e M	wordpress/html/wp-content/themes/homeo/css/login-style.css

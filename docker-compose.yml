@@ -9,12 +9,15 @@ services:
     ports:
       - "8080:8080"
       - "50000:50000"
+      - "2223:22"
     volumes:
       - ./jenkins_workdir:/var/jenkins_home
       - ./jenkins_update/jenkins:/usr/share/jenkins
-    networks:
-      - jenkins-srv_network 
+      - ./ssh-keys/.ssh:/var/jenkins_home/.ssh
+
+#    networks:
+#      - jenkins-srv_network 
             
-networks:
-    jenkins-srv_network:
-             driver: bridge
+#networks:
+#    jenkins-srv_network:
+#             driver: bridge

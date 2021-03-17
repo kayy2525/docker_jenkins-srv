@@ -1,0 +1,25 @@
+Started by GitHub push by kayy2525
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/wordpress_project(push on srv from GIthub)
+The recommended git tool is: NONE
+using credential ssh-root_private_key
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kayy2525/wordpress-project_on-ssl.git # timeout=10
+Fetching upstream changes from git@github.com:kayy2525/wordpress-project_on-ssl.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_SSH to set credentials ssh-root_private_key
+ > git fetch --tags --progress -- git@github.com:kayy2525/wordpress-project_on-ssl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6398584ec890f3154607f80936764748a3c965ea (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6398584ec890f3154607f80936764748a3c965ea # timeout=10
+Commit message: "important"
+ > git rev-list --no-walk e527e8cb9fc6b16858529e8b17de65965a46abcb # timeout=10
+SSH: Connecting from host [4138662d6299]
+SSH: Connecting with configuration [homenano-srv(root)] ...
+SSH: EXEC: completed after 210 ms
+SSH: Disconnecting configuration [homenano-srv(root)] ...
+SSH: Transferred 18701 file(s)
+Finished: SUCCESS

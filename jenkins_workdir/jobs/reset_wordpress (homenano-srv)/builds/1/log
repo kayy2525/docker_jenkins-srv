@@ -1,0 +1,9 @@
+Started by user [8mha:////4OCD5efY6kkRVp0wekEKbp6LjoZ4J1aeG7oMeTx+ip5QAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZe/dLi1CL9rNS87My8YgA3w92AwgAAAA==[0m Platon Vyacheslav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/reset_wordpress (homenano-srv)
+[reset_wordpress (homenano-srv)] $ /bin/sh -xe /tmp/jenkins6599683635353211093.sh
++ ssh jenins-slave1@192.168.0.100
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Host key verification failed.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

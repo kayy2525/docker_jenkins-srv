@@ -102,3 +102,54 @@ ls
 cd usr/share/jenkins/
 ls
 exit
+ssh-keygen -t rsa -C "jenkins" -m PEM
+ls
+cat /var/jenkins_home/.ssh/id_rsa
+exit
+ssh-keygen 
+ssh-copy-id jenkins-slave1@192.168.0.100
+ssh-keygen -f "/var/jenkins_home/.ssh/known_hosts" -R 192.168.0.100
+ssh-copy-id jenkins-slave1@192.168.0.100
+cd /var/jenkins_home/.ssh/
+ls
+rm known_hosts.old 
+ls
+cat id_rsa
+clear
+ls
+cat id_rsa
+clear
+ls
+exit
+clear
+ls
+cd home/
+ls
+ls -la 
+cd /home/
+ls
+ls -la 
+clear
+ls
+cd /var/
+lks
+ls
+clear
+ls
+clear
+ssh-keygen 
+exit
+cat /var/jenkins_home/.ssh/
+ls /var/jenkins_home/.ssh/
+ssh-copy-id jenkins-slave1@192.168.0.100
+clear
+ls
+exit
+ssh-copy-id root@192.168.0.100
+ssh-copy-id jankins-slave1@192.168.0.100
+exit
+ssh-copy-id jenkins-slave1@192.168.0.100
+exit
+ssh-copy-id jenkins-slave1@192.168.0.100
+exit
+exit

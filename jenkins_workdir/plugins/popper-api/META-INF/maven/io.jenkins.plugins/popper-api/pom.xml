@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>popper-api</artifactId>
-  <version>1.16.1-1</version>
+  <version>1.16.1-2</version>
   <packaging>hpi</packaging>
   <name>Popper.js API Plugin</name>
   <description>Provides Popper.js for Jenkins plugins.</description>
@@ -26,7 +26,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/popper-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/popper-api-plugin.git</developerConnection>
-    <tag>v1.16.1-1</tag>
+    <tag>v1.16.1-2</tag>
     <url>https://github.com/jenkinsci/popper-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -47,15 +47,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.errorprone</groupId>
-      <artifactId>error_prone_annotations</artifactId>
-      <version>2.4.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.204.6</version>
+      <version>2.249.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -67,7 +61,7 @@
     <dependency>
       <groupId>com.github.spotbugs</groupId>
       <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.11</version>
+      <version>4.0.3</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -94,7 +88,7 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>access-modifier-annotation</artifactId>
-      <version>1.14</version>
+      <version>1.16</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -108,6 +102,10 @@
     <repository>
       <id>repo.jenkins-ci.org</id>
       <url>https://repo.jenkins-ci.org/public/</url>
+    </repository>
+    <repository>
+      <id>incrementals.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/incrementals/</url>
     </repository>
   </repositories>
   <build>

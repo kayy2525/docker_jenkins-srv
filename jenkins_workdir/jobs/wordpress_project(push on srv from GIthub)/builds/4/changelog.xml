@@ -1,0 +1,10 @@
+commit b949471e2a1244080943685619f653dbe8458129
+tree dd9e6bbe8cb10bcc41227675c1c062b6a1dcf4a6
+parent d960e060540f63b1a6711ea013f376aee611f4da
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-02-28 17:04:08 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-02-28 17:04:08 +0200
+
+    update 2 reset
+
+
+:100755 100755 0b3f51531939ea550b5968224518725d44696816 b591aa01884b51c9d8dad5b9a21a53ac34bdc4c4 M	reset_wordpress.sh

@@ -1,0 +1,11 @@
+commit 9defaf33fe36cdad4e5c9c7c87707836d4fdfad7
+tree aa9b42bae7d358b5a8011d3fcfba83f7d0742cde
+parent 352aa466a10b9d966f2002236c1356fe7431b492
+author Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-12 14:06:03 +0200
+committer Vyaheslav Platon <vyacheslav25sl@gmail.com> 2021-03-12 14:06:03 +0200
+
+    update index
+
+
+:100755 100755 de6864cc979531cd539d822b667a4e94b7589735 9668edd78af36a2cfe2f2d429eabcbb5c635e583 M	index.html
+:100644 000000 ddea3b54bcc2752e44a5787db6d0635a8461f99f 0000000000000000000000000000000000000000 D	index.html.back
